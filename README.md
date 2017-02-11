@@ -30,7 +30,7 @@ Have you thought about validating the value of `circles`? Which values and types
 
 A `for` loop might be fine for now, but consider a more functional approach, generating a quick array of `n` elements with
 
-```javascript
+```JavaScript
 let baseArray = Array.from({length: n},(a,i) => i);
 ```
 
