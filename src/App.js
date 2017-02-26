@@ -4,7 +4,7 @@ import Container from './Container.js';
 class App extends Component {
   render() {
     return (
-        <Container circles={5}/>
+      <Container circles={5}/>
     );
   }
 }
